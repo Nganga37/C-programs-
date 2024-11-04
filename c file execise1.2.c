@@ -11,7 +11,7 @@ int main() {
     struct Student student;
     int n;
 
-    file = fopen("students.txt", "a");
+    file = fopen("C:\\Users\\hp\\Desktop\\New folder (2)\\students.txt", "a");
 
     if (file == NULL) {
         printf("Error opening file!\n");
