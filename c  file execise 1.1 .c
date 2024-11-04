@@ -8,7 +8,7 @@ struct Student {
 int main() {
     FILE *file;
     struct Student students[5];
-    file = fopen("students.txt", "w");
+    file = fopen("C:\\Users\\hp\\Desktop\\New folder (2)\\students.txt", "w");
 
     if (file == NULL) {
         printf("Error opening file!\n");
