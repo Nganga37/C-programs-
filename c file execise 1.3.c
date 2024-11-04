@@ -13,7 +13,7 @@ int main() {
     int n = 5;
 
     // Open file for writing
-    file = fopen("students.dat", "wb");
+    file = fopen("C:\\Users\\hp\\Desktop\\New folder (2)\\students.dat", "wb");
     if (file == NULL) {
         printf("Error opening file for writing!\n");
         return 1;
